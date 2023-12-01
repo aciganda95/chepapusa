@@ -1,0 +1,71 @@
+html {
+    font-family: 'Hedvig Letters Serif', serif;
+  
+
+}
+
+body {
+    margin: auto;
+}
+
+.cabezera {
+    background-color: #364552;
+    height: 40px;
+    text-align: center;
+    padding: 2rem;
+}
+
+a {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: ease;
+    transition-duration: 0.3s;
+
+    
+    
+}
+
+a:link {
+    color: red;
+
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: yellow;
+    text-shadow: rgb(226, 10, 10);
+
+}
+
+a:active {
+    color: green;
+}
+
+section.Agenda {
+    background-color: bisque;
+}
+
+section.Agenda h1 {
+    text-align: center;
+    margin: auto;
+    background-color: red;
+}
+
+section.Agenda p {
+    padding-left: 4rem;
+    font-size: 1.3rem;
+    text-decoration: underline;
+   
+}
+
+section.Nuestro-recorrido {
+    background-color: aquamarine;
+    margin: none;
+    
+}
