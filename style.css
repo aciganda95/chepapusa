@@ -12,11 +12,13 @@ body {
     background-color: #364552;
     height: 40px;
     text-align: center;
-    padding: 2rem;
+    padding-top: 0.8rem;
+    
+    
 }
 
 a {
-    padding: 1rem;
+    padding: 1.2rem;
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
@@ -38,34 +40,70 @@ a:visited {
 }
 
 a:hover {
-    color: yellow;
+    transition: 0.3s ease;
+    color: rgb(50, 156, 218);
     text-shadow: rgb(226, 10, 10);
 
 }
 
 a:active {
-    color: green;
+    color: rgb(128, 47, 0);
 }
 
 section.Agenda {
-    background-color: bisque;
+    background-color: #364552;
+    border: solid 2px red;
+    color: white;
 }
 
 section.Agenda h1 {
     text-align: center;
     margin: auto;
-    background-color: red;
+    background-color: #364552;
 }
 
 section.Agenda p {
     padding-left: 4rem;
     font-size: 1.3rem;
     text-decoration: underline;
+    
    
 }
 
+section.Agenda li {
+    color: whitesmoke;
+    padding: 2px;
+
+}
+
 section.Nuestro-recorrido {
-    background-color: aquamarine;
+    border: solid 2px green;
     margin: none;
+    background-image: url(/O-2.JPEG);
+    background-size: cover;
+    height: 800px;
+
     
 }
+
+section.Nuestro-recorrido p {
+    margin: 0%;
+}
+
+
+
+
+footer {
+    background-color: #364552;
+    height: 25px;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+footer a {
+    color: whitesmoke;
+    
+    
+}
+
