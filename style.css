@@ -54,19 +54,20 @@ section.Agenda {
     background-color: #364552;
     border: solid 2px red;
     color: white;
+    height: calc(100vh - 40px);
 }
 
 section.Agenda h1 {
     text-align: center;
     margin: auto;
     background-color: #364552;
+    
 }
 
 section.Agenda p {
     padding-left: 4rem;
     font-size: 1.3rem;
     text-decoration: underline;
-    
    
 }
 
@@ -79,11 +80,27 @@ section.Agenda li {
 section.Nuestro-recorrido {
     border: solid 2px green;
     margin: none;
-    background-image: url(/O-2.JPEG);
+    background-image: url("foto.JPEG");
     background-size: cover;
-    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: -2;
+    
 
     
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    opacity: 0.4;
+    z-index: -1;
 }
 
 section.Nuestro-recorrido p {
